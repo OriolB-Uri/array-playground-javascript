@@ -16,6 +16,7 @@
 
 /**
  * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
+ * Porque el array length nos dice que el array tiene 4 elementos dentro y estamos iterando el for hasta que i es igual a 4 pero el array de muchos_peces no tiene indice 4. Solo tiene hasta el indice 3 por lo que por eso nos da que el indice 4 es undefined. El ejercicio se resolveria simplemente quitando ese <= del for y dejandolo en <
  */
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"];

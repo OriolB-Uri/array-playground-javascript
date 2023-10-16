@@ -6,7 +6,7 @@ function existePez(listaPeces, pezBuscado) {
   let pezEncontrado = false;
   let i = 0;
 
-  while (!pezEncontrado && i < listaPeces.length - 1) {
+  while (!pezEncontrado && i < listaPeces.length) {
     pezEncontrado = listaPeces[i] == pezBuscado;
     i++;
   }
@@ -27,5 +27,7 @@ console.log("He encontrado al pez?: " + he_encontrado_al_pez);
  * 1. Un error que impide ejecutar el código. Vigila la información que arroja el TERMINAL
  * 2. Un error lógico; que hace que el código no devuelve lo que debería devolver.
  *
+ * Lo unico que ha hecho falta modificar ha sido quitar el -1 del white "listaPeces.length - 1" para que, ahora si, recorra todo el array al completo
+ * 
  * Pon "chivatos" en el código para aydarte a averiguar que está sucediendo; o usa el depurador de Visual Studio para ejecutar el código paso a paso
  */

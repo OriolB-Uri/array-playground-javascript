@@ -1,6 +1,6 @@
 // Strings
 
-// Podemos acceder a un carácterdel string mediante la misma notación que los array
+// Podemos acceder a un carácter del string mediante la misma notación que los array
 
 let frase = "En esta escuela ya no traen pastas!"
 console.log(frase[0]) // Primer carácter
